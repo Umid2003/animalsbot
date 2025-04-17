@@ -57,7 +57,7 @@ const animalsOptions = {
 
 
 bot.on("message", async (msg) => {
-    const text = msg.text;
+    const text = msg.text; 
     const chatId = msg.chat.id;
     const reg = new RegExp("/^[a-zA-Z\s]+$/");
   try { 
